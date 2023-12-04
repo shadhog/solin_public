@@ -1,0 +1,19 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+.menu-wrap a {
+	color: #4e4a46;
+	text-decoration: none;
+	outline: none;
+}
+
+.menu-wrap a:hover, .menu-wrap a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+.menu-button:focus {
+	outline: none;
+}
+
